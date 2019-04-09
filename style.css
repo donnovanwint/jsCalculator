@@ -4,8 +4,39 @@
 }
 html  {
     font-size: 62.5%;
+    overflow: hidden;
 }
 
 body {
     background-color: skyblue;
+    font-size: 3rem;
+}
+
+.container {
+    width: 30%;
+    margin: 5rem auto;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+button {
+    font-size: 1.6rem;
+    padding: 2rem;
+    height: 7rem;
+    width: 7rem;
+}
+
+.row {
+    padding: .5rem 0;
+}
+
+#numDisplay {
+    padding-top:1rem;
+}
+
+#numDisplay p {
+    margin-bottom: 3rem;
+    background-color: white;
+    border-bottom: .1rem black solid;
 }
