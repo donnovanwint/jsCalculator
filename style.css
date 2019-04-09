@@ -34,9 +34,8 @@ button {
 #numDisplay {
     padding-top:1rem;
 }
-
-#numDisplay p {
-    margin-bottom: 3rem;
-    background-color: white;
-    border-bottom: .1rem black solid;
+#numDisplay input {
+    width: 90%;
+    height: 3rem;
+    margin-bottom: 1rem;
 }
